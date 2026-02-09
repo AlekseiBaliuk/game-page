@@ -7,7 +7,8 @@ export const Container = styled.div`
   align-items: center;
   gap: 12px;
   margin-bottom: 52px;
-  width: 220px;
+  width: 100%;
+  /* width: 220px; */
 
   @media (min-width: 1440px) {
     margin: 0;
@@ -17,10 +18,15 @@ export const Container = styled.div`
 export const Wrapper = styled.div`
   display: flex;
   gap: 3px;
+  width: 220px;
 
   @media (min-width: 480px) {
     align-items: center;
     justify-content: center;
+  }
+
+  @media (min-width: 1440px) {
+    align-self: flex-end;
   }
 `;
 
