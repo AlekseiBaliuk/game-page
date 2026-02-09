@@ -7,6 +7,7 @@ export const Container = styled.div`
   align-items: center;
   gap: 12px;
   margin-bottom: 52px;
+  width: 220px;
 
   @media (min-width: 1440px) {
     margin: 0;
@@ -15,7 +16,7 @@ export const Container = styled.div`
 
 export const Wrapper = styled.div`
   display: flex;
-  gap: 12px;
+  gap: 3px;
 
   @media (min-width: 480px) {
     align-items: center;
@@ -24,13 +25,14 @@ export const Wrapper = styled.div`
 `;
 
 export const Icon = styled.img`
-  width: 52px;
-  height: 52px;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 8px;
-  backdrop-filter: blur(12.94px);
   border: 1px solid rgba(255, 255, 255, 0.4);
+  image-rendering: -webkit-optimize-contrast; /* Safari/Chrome */
+  image-rendering: crisp-edges; /* Firefox */
 `;
 
 export const SocialsText = styled(Typography)`

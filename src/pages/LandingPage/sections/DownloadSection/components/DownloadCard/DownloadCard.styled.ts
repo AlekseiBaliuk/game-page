@@ -24,6 +24,7 @@ export const Title = styled(Typography)`
     line-height: 40px;
     margin-bottom: 6px;
     color: #fff;
+    text-wrap-mode: nowrap;
   }
 `;
 
