@@ -1,5 +1,5 @@
 import { Container, Icon, SocialsText, Wrapper } from "./SocialIcons.styled";
-import InstagramIcon from "../../../../../../shared/assets/instagram.png";
+import InstagramIcon from "../../../../../../shared/assets/insta.png";
 import TelegramIcon from "../../../../../../shared/assets/tg.png";
 import XIcon from "../../../../../../shared/assets/x.png";
 import Mail from "../../../../../../shared/assets/mail.png";
