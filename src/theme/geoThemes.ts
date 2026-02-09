@@ -1,4 +1,4 @@
-import Hero from "../shared/assets/images/hero-bg-375.png";
+import Hero from "../shared/assets/hero-bg-375.jpg";
 
 export const geoPalette = {
   en: {

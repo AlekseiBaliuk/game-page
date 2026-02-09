@@ -1,8 +1,8 @@
 import { Container, Icon, SocialsText, Wrapper } from "./SocialIcons.styled";
-import InstagramIcon from "../../../../../../shared/assets/images/instagram.png";
-import TelegramIcon from "../../../../../../shared/assets/images/tg.png";
-import XIcon from "../../../../../../shared/assets/images/x.png";
-import Mail from "../../../../../../shared/assets/images/mail.png";
+import InstagramIcon from "../../../../../../shared/assets/instagram.png";
+import TelegramIcon from "../../../../../../shared/assets/tg.png";
+import XIcon from "../../../../../../shared/assets/x.png";
+import Mail from "../../../../../../shared/assets/mail.png";
 import { useTranslate } from "../../../../../../shared/hooks/useTranslate";
 
 export const SocialIcons = () => {

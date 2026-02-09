@@ -31,7 +31,7 @@ export const GeoSelect = () => {
   return (
     <SelectStyled value={geo} onChange={(e) => setGeo(e.target.value as any)}>
       {GEOS.map((g) => (
-        <MenuItem value={g.value}>
+        <MenuItem key={g.value} value={g.value}>
           {g.icon} {g.label}
         </MenuItem>
       ))}

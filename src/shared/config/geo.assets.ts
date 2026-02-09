@@ -1,4 +1,4 @@
-import slots from "../assets/images/777.png";
+import slots from "../assets/777.png";
 
 export const geoAssets = {
   en: {

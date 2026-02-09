@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import casinoRoyale from "../../../../../../shared/assets/images/casino-royale.png";
+import casinoRoyale from "../../../../../../shared/assets/casino-royale.png";
 
 export const LogoStyled = styled.div`
   width: 264px;

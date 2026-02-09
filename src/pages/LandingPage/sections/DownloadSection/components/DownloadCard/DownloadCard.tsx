@@ -1,6 +1,6 @@
 import { useTranslate } from "../../../../../../shared/hooks/useTranslate";
 import { ButtonStyled, Card, Description, Title } from "./DownloadCard.styled";
-import DownloadIcon from "../../../../../../shared/assets/images/download.svg";
+import DownloadIcon from "../../../../../../shared/assets/download.svg";
 import { Logo } from "../../../HeroSection/components/Logo/Logo";
 
 export const DownloadCard = () => {

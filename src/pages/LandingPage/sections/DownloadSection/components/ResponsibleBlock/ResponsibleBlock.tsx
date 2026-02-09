@@ -1,7 +1,7 @@
 import { Container, Icon, Text, Wrapper } from "./ResponsibleBlock.styled";
 import { useTranslate } from "../../../../../../shared/hooks/useTranslate";
-import Icon18Plus from "../../../../../../shared/assets/images/18.png";
-import Certificate from "../../../../../../shared/assets/images/certificate.png";
+import Icon18Plus from "../../../../../../shared/assets/18.png";
+import Certificate from "../../../../../../shared/assets/certificate.png";
 
 export const ResponsibleBlock = () => {
   const t = useTranslate();
