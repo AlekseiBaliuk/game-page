@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'SF Pro';
-    src: url('/fonts/SF-Pro/SF-Pro-Display-Regular.woff2') format('woff2');
+    /* src: url('/fonts/SF-Pro/SF-Pro-Display-Regular.woff2') format('woff2'); */
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
 
   @font-face {
     font-family: 'SF Pro';
-    src: url('/fonts/SF-Pro/SF-Pro-Display-Medium.woff2') format('woff2');
+    /* src: url('/fonts/SF-Pro/SF-Pro-Display-Regular.woff2') format('woff2'); */
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -19,7 +19,7 @@ export const GlobalStyles = createGlobalStyle`
 
   @font-face {
     font-family: 'SF Pro';
-    src: url('/fonts/SF-Pro/SF-Pro-Display-Bold.woff2') format('woff2');
+    /* src: url('/fonts/SF-Pro/SF-Pro-Display-Regular.woff2') format('woff2'); */
     font-weight: 700;
     font-style: normal;
     font-display: swap;

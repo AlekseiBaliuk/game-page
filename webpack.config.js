@@ -39,6 +39,10 @@ module.exports = {
         test: /\.s?css$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
+      {
+        test: /\.(woff2?|ttf|otf|eot)$/i,
+        type: "asset/resource",
+      },
     ],
   },
   optimization: {
