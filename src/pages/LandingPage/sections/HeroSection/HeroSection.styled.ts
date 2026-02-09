@@ -8,12 +8,14 @@ export const Wrapper = styled.section<{ locale: Geo }>`
   justify-content: center;
   align-items: center;
   padding: 199px 16px;
+  width: 100%;
+  height: 100%;
 
   background: ${({ locale }) => `linear-gradient(
     to bottom,
     transparent 0%,
     transparent 70%,
-    rgba(0, 0, 0, 0.75) 85%,
+    rgba(0, 0, 0, 0.75) 90%,
     rgba(0, 0, 0, 1) 100%
   ), url(${geoPalette[locale].hero})`};
 

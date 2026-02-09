@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.section`
   width: 100%;
   padding: 60px 28px;
-  background: linear-gradient(90deg, #02011f 0%, #06225d 100%);
+  background: linear-gradient(90deg, #02011f 65%, #06225d 100%);
 
   @media (min-width: 480px) {
     padding: 60px 45px;
